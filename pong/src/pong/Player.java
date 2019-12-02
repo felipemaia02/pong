@@ -14,7 +14,7 @@ public class Player {
 		this.x = x;
 		this.y = y;
 		this.widht = 40;
-		this.height = 10;
+		this.height = 5;
 		
 	}
 	

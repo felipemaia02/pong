@@ -13,12 +13,11 @@ public class Enemy {
 		this.x = x;
 		this.y = y;
 		this.widht = 40;
-		this.height = 10;
+		this.height = 5;
 	}
 	
 	public void tick() {
-		x += (Game.ball.x - x - 6);
-		
+		x += (Game.ball.x - x - 6) * 0.07;
 		
 	}
 	
